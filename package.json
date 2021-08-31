@@ -1,0 +1,44 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FauziN825/fauzifaruqnabbani_betest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FauziN825/fauzifaruqnabbani_betest/issues"
+  },
+  "homepage": "https://github.com/FauziN825/fauzifaruqnabbani_betest#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.12.1",
+    "joi": "^17.4.2",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.0.2",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2",
+    "response-time": "^2.3.2",
+    "superagent": "^6.1.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
